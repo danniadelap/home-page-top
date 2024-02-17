@@ -75,7 +75,7 @@ h1{
 }
 
 .random-info{
-    padding: 40px 0;
+    padding: 60px 250px;
 }
 
 .random-info h2{
@@ -108,3 +108,72 @@ h1{
     object-fit: cover;
     border-radius: 10px;
 }
+
+.phrase-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.phrase-parragraph{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    text-align: left;
+}
+.author{
+    text-align: right;
+    font-weight: bold;
+}
+
+.call-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container-call{
+    background-color: #3882F6;
+    margin: 50px;
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    padding: 30px 80px;
+    border-radius: 7px;
+    
+}
+
+.container-call div{
+    padding: 15px 60px;
+    color: #E5E7EB;
+}
+
+.title-call{
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.container-call button{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid #F9FAF8;
+    color: #E5E7EB;
+    font-weight: bold;
+    border-radius: 7px;
+
+}
+
+
+footer{
+    text-align: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 30px 0;
+    }
